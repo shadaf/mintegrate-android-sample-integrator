@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatEditText
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:hint="Merchant user id"
+        android:id="@+id/txt_email"/>
+
+    <android.support.v7.widget.AppCompatEditText
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Password"
+        android:inputType="numberPassword"
+        android:id="@+id/txt_password"/>
+
+    <Spinner
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:entries="@array/region"
+        
+        >
+
+    </Spinner>
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Login to Mint"
+        android:id="@+id/btn_login"/>
+
+
+
+
+</LinearLayout>

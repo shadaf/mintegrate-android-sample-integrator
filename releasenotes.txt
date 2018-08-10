@@ -1,0 +1,27 @@
+
+2.0.1 (8)
+
+- fixed: reader not responding
+
+2.0.0 (7)
+
+- updated sdk to 1.17.3
+
+2.0.0 (6)
+
+- updated offline SDK, added mock user activation flow
+
+1.0.0 (5)
+- Removed next from onPaymentProgress
+1.0.0 (4)
+- Fixed card detection mode issues in the simulator sdk.
+1.0.0 (3)
+- Added code for contactless
+1.0.0 (2)
+- codes commit
+- removed .idea folder
+
+1.0.0 (1)
+Setup initial structure.
+
+
